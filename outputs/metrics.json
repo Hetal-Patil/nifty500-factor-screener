@@ -1,0 +1,31 @@
+{
+  "Strategy": {
+    "CAGR": 0.1527,
+    "Volatility": 0.1696,
+    "Sharpe": 0.57,
+    "Sortino": 1.25,
+    "MaxDrawdown": -0.189
+  },
+  "Index": {
+    "CAGR": 0.1535,
+    "Volatility": 0.1639,
+    "Sharpe": 0.59,
+    "Sortino": 1.24,
+    "MaxDrawdown": -0.1484
+  },
+  "Alpha_vs_Index_CAGR": -0.0008,
+  "HitRateVsIndex": 0.517,
+  "AvgMonthlyTurnover": 0.513,
+  "AvgMonthlyCostDrag": 0.00051,
+  "InformationCoefficient": {
+    "mean_IC": 0.0085,
+    "IC_tstat": 1.58,
+    "IC_pvalue": 0.1206
+  },
+  "AlphaSignificance": {
+    "mean_monthly_excess_return": 2e-05,
+    "excess_tstat": 0.03,
+    "excess_pvalue": 0.9797,
+    "interpretation": "NOT statistically significant at 5% - could be noise"
+  }
+}
