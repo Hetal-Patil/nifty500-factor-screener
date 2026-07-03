@@ -153,23 +153,6 @@ become one, in rough priority order:
    screener.in exports, Trendlyne, TickerTape) since yfinance does not
    reliably expose P/E, P/B, ROE, or D/E for NSE-listed stocks.
 
-## What I'd say about this in an interview
-
-- **"Does the strategy work?"** — The current version is a synthetic-data
-  research pipeline, so I wouldn't claim real alpha from it. The goal was to
-  build the full research workflow — scoring, sector-neutral ranking,
-  backtesting with costs, and the diagnostics needed to sanity-check it
-  (IC, monotonicity, significance testing). To make it investment-grade I'd
-  add point-in-time fundamentals, historical constituents, and out-of-sample
-  validation.
-- **"Why these factors?"** — Value, momentum, and quality are standard,
-  well-studied equity factors: value captures cheapness, momentum captures
-  recent price strength, and quality captures profitability and balance
-  sheet strength. Combining them reduces reliance on any single signal.
-- **"Biggest risks?"** — Look-ahead bias, survivorship bias, transaction
-  costs eroding a small edge, sector/size bias, and overfitting to the
-  backtest period.
-
 ## Possible extensions
 
 - Real fundamentals integration (see Limitations above)
